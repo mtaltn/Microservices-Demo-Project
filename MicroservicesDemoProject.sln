@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{050D03B5-A28F-4FBE-8D94-A0A2C58B785C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{8CE8D102-0373-40E6-B24B-6BED60440B74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{926A7F08-DB00-4C36-B7C9-CC020F1A119F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedLine.Services.Catalog", "src\Services\Catalog\RedLine.Services.Catalog\RedLine.Services.Catalog.csproj", "{C390EBBD-C47B-4CED-A4DE-5BDFB08801A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1E039416-B1BB-42A4-89CE-44489E39E306}"
+	ProjectSection(SolutionItems) = preProject
+		Ports.txt = Ports.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{03E7E555-CD68-4ACB-BAAC-0E7FCC29F83C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedLine.Shared", "Shared\RedLine.Shared\RedLine.Shared.csproj", "{B80EC999-D096-4C52-9A9A-ED4F38B6AD86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{98E65774-6896-443F-A81C-35726CAE0A71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Redline.ApiGateway", "Redline.ApiGateway", "{651FAD2A-67D0-4425-A302-038E033B62BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{111B68E5-29F2-4598-8743-CCFE6E5F4D71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C390EBBD-C47B-4CED-A4DE-5BDFB08801A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C390EBBD-C47B-4CED-A4DE-5BDFB08801A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C390EBBD-C47B-4CED-A4DE-5BDFB08801A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C390EBBD-C47B-4CED-A4DE-5BDFB08801A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B80EC999-D096-4C52-9A9A-ED4F38B6AD86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B80EC999-D096-4C52-9A9A-ED4F38B6AD86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B80EC999-D096-4C52-9A9A-ED4F38B6AD86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B80EC999-D096-4C52-9A9A-ED4F38B6AD86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8CE8D102-0373-40E6-B24B-6BED60440B74} = {050D03B5-A28F-4FBE-8D94-A0A2C58B785C}
+		{926A7F08-DB00-4C36-B7C9-CC020F1A119F} = {8CE8D102-0373-40E6-B24B-6BED60440B74}
+		{C390EBBD-C47B-4CED-A4DE-5BDFB08801A4} = {926A7F08-DB00-4C36-B7C9-CC020F1A119F}
+		{03E7E555-CD68-4ACB-BAAC-0E7FCC29F83C} = {050D03B5-A28F-4FBE-8D94-A0A2C58B785C}
+		{B80EC999-D096-4C52-9A9A-ED4F38B6AD86} = {03E7E555-CD68-4ACB-BAAC-0E7FCC29F83C}
+		{98E65774-6896-443F-A81C-35726CAE0A71} = {050D03B5-A28F-4FBE-8D94-A0A2C58B785C}
+		{651FAD2A-67D0-4425-A302-038E033B62BB} = {98E65774-6896-443F-A81C-35726CAE0A71}
+		{111B68E5-29F2-4598-8743-CCFE6E5F4D71} = {050D03B5-A28F-4FBE-8D94-A0A2C58B785C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D261DEBE-5A21-4C4E-B34E-99DC21A4901F}
+	EndGlobalSection
+EndGlobal

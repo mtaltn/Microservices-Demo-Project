@@ -1,0 +1,6 @@
+@RedLine.Services.Catalog_HostAddress = http://localhost:5088
+
+GET {{RedLine.Services.Catalog_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
