@@ -1,4 +1,7 @@
 Default Url : http://localhost:5000/swagger/index.html
 -----
-RedLine.Services.Catalog => catalogAPI : 5101
+RedLine:
+		Services:
+				catalogAPI : 5101
+				photoStockAPI : 5102
 -----
