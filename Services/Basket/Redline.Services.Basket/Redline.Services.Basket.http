@@ -1,0 +1,6 @@
+@Redline.Services.Basket_HostAddress = http://localhost:5188
+
+GET {{Redline.Services.Basket_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

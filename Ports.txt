@@ -4,4 +4,5 @@ RedLine:
 		Services:
 				catalogAPI : 5101
 				photoStockAPI : 5102
+				basketAPI : 5103
 -----

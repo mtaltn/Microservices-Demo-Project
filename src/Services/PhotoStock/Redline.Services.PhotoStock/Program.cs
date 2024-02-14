@@ -1,11 +1,22 @@
+using Microsoft.OpenApi.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
-{
-    c.SwaggerDoc("v1", new() { Title = "API Version", Version = "v1" });
-});
+    c.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "PhotoStock API",
+        Version = "v1",
+        Description = "PhotoStock API",
+        Contact = new OpenApiContact
+        {
+            Name = "Mehmet Tekin ALTUN",
+            Email = "mehmettekinaltun@gmail.com",
+            Url = new Uri("https://github.com/mtaltn")
+        }
+    }));
 
 builder.Services.AddControllers();
 

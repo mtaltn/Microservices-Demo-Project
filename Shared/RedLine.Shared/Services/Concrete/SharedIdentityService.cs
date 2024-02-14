@@ -1,0 +1,15 @@
+﻿using Microsoft.AspNetCore.Http;
+
+namespace RedLine.Shared.Services;
+
+public class SharedIdentityService : ISharedIdentityService
+{
+    private readonly IHttpContextAccessor _httpContextAccessor;
+
+    public SharedIdentityService(IHttpContextAccessor httpContextAccessor)
+    {
+        _httpContextAccessor = httpContextAccessor;
+    }
+
+    public string GetUserId => "123";//_httpContextAccessor.HttpContext.User.FindFirst("sub").Value;
+}

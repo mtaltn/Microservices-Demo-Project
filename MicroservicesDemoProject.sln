@@ -28,7 +28,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityS
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotoStock", "PhotoStock", "{AAF4D2D7-11B9-420A-BE62-0FD07D2EFE51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redline.Services.PhotoStock", "src\Services\PhotoStock\Redline.Services.PhotoStock\Redline.Services.PhotoStock.csproj", "{87726F77-FF4A-4640-A2EC-66A01B717A2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redline.Services.PhotoStock", "src\Services\PhotoStock\Redline.Services.PhotoStock\Redline.Services.PhotoStock.csproj", "{87726F77-FF4A-4640-A2EC-66A01B717A2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{29320AD1-145C-440E-92CE-0D415DB98495}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redline.Services.Basket", "Services\Basket\Redline.Services.Basket\Redline.Services.Basket.csproj", "{B125E405-57BB-4255-B5A9-970C7CC8852F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,6 +52,10 @@ Global
 		{87726F77-FF4A-4640-A2EC-66A01B717A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87726F77-FF4A-4640-A2EC-66A01B717A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87726F77-FF4A-4640-A2EC-66A01B717A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B125E405-57BB-4255-B5A9-970C7CC8852F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B125E405-57BB-4255-B5A9-970C7CC8852F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B125E405-57BB-4255-B5A9-970C7CC8852F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B125E405-57BB-4255-B5A9-970C7CC8852F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +71,8 @@ Global
 		{111B68E5-29F2-4598-8743-CCFE6E5F4D71} = {050D03B5-A28F-4FBE-8D94-A0A2C58B785C}
 		{AAF4D2D7-11B9-420A-BE62-0FD07D2EFE51} = {8CE8D102-0373-40E6-B24B-6BED60440B74}
 		{87726F77-FF4A-4640-A2EC-66A01B717A2E} = {AAF4D2D7-11B9-420A-BE62-0FD07D2EFE51}
+		{29320AD1-145C-440E-92CE-0D415DB98495} = {8CE8D102-0373-40E6-B24B-6BED60440B74}
+		{B125E405-57BB-4255-B5A9-970C7CC8852F} = {29320AD1-145C-440E-92CE-0D415DB98495}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D261DEBE-5A21-4C4E-B34E-99DC21A4901F}
